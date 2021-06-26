@@ -9,12 +9,6 @@ registerApplication({
   activeWhen: ["/"],
 });
 
-// registerApplication({
-//   name: "@lba/navbar",
-//   app: () => System.import("@lba/navbar"),
-//   activeWhen: ["/"]
-// });
-
 start({
   urlRerouteOnly: true,
 });
